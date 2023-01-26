@@ -1,0 +1,47 @@
+body{
+    font-size:14px;
+}
+/* header */
+.navbar, #banner{
+    background-color:#F1F3FF;
+}
+
+.btn-green{
+    background-color: #5CB85F;
+    color:#fff;
+}
+
+.img-car{
+width: 100%;
+margin-left:115px;
+}
+
+/* our-services */
+#our-services ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#our-services li{
+    display: flex;
+    align-items: center;
+}
+
+/* testimonal */
+.bg-testimonial{
+    background-color: #F1F3FF;
+}
+
+.card-banner{
+    background-color:#0D28A6;
+
+}
+
+/* footer */
+#footer a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin-bottom: 10px;
+}
