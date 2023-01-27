@@ -2,6 +2,7 @@ body{
     font-size:14px;
 }
 /* header */
+
 .navbar, #banner{
     background-color:#F1F3FF;
 }
@@ -11,9 +12,13 @@ body{
     color:#fff;
 }
 
+/* Banner 1 */
+#banner .row{
+    padding-left: 10%;
+    overflow: hidden ;
+}
 .img-car{
-width: 100%;
-margin-left:115px;
+max-width: 100%;
 }
 
 /* our-services */
@@ -26,6 +31,12 @@ margin-left:115px;
 #our-services li{
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
+}
+
+/* Why-Us */
+.item-why-us{
+    max-height: 175px;
 }
 
 /* testimonal */
@@ -45,3 +56,4 @@ margin-left:115px;
     color: black;
     margin-bottom: 10px;
 }
+
